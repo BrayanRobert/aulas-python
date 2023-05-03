@@ -18,7 +18,8 @@ idade = input('Qual sua idade? ') # Nesse caso, o valor que o usuário colocar s
 # concatenação de strings:
 string1 = 'Ola, meu nome é '
 string2 = 'Agenor'
-string3 = string1 + string2
+string3 = string1 + string2 # Nova string criada a partir da junção de duas outras strings
+print(string3)
 
 # fstrings para inserir valor de uma variável em uma string
 carro = 'honda civic'
