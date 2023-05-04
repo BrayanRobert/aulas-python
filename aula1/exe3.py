@@ -4,4 +4,4 @@ altura = float(input("Insira a altura do seu retângulo: "))
 
 area = base * altura
 
-print(f"A area é: {area}")
+print(f"A area é essa: {area}")
