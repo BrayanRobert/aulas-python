@@ -5,8 +5,8 @@
 #================== CENÁRIO 1 ==================#
 
 aluno = "Brayan Robert"
-nota1 = 0
-nota2 = 0
+nota1 = 5
+nota2 = 5
 media = (nota1+nota2)/2
 
 if(media>=7):
