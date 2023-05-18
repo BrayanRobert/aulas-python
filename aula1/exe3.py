@@ -5,6 +5,5 @@ altura = int(input("Digite a altura do retângulo "))
 
 multiplicacao = int(base * altura)
 
-String1 = (f"A base é {base} e a altura do retângulo é igual a {altura}")
-print(String1)
+print(f"A base é {base} e a altura do retângulo é igual a {altura}")
 print(f"O valor da área é {multiplicacao}")
