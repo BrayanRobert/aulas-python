@@ -7,11 +7,11 @@ nota2= float(input('Agora a nota da segunda prova: '))
 media= float((nota1+nota2)/2)
 
 if media >=7:
-       print(f'{nome}, sua média é {media}. Parabéns, você foi aprovado!!!! ')
+       print(f'{nome}, sua média é {media} . Parabéns, você foi aprovado!!!! ')
 elif media >= 3:
-       print(f'{nome}, sua média é {media}. Você está de recuperação.')
+       print(f'{nome}, sua média é {media} . Você está de recuperação.')
 elif media <3:
-       print(f'{nome}, sua média é {media}. Sinto muito, mas você está reprovado. ')       
+       print(f'{nome}, sua média é {media} . Sinto muito, mas você está reprovado. ')       
   
 
 
