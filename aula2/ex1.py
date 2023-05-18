@@ -16,15 +16,15 @@ if (nota1 or nota2) < 0 or (nota1 or nota2) > 10:
     nota2 = float(input('Digite sua segunda nota: '))
     media = (nota1+nota2)/2
     if media >= 7:
-        print('Você foi aprovado!')
+        print(' ,você foi aprovado!')
     elif media >= 3 and media < 7:
-        print('Você foi para a recuperação')
+        print(' ,você foi para a recuperação')
     else:
-        print('Você foi expulso pelo marlon')
+        print(' ,você foi expulso pelo marlon')
 else:
     if media >= 7:
-        print('Você foi aprovado!')
+        print('Você foi aprovado, ' +nome)
     elif media >= 3 and media < 7:
-        print('Você foi para a recuperação')
+        print('Você foi para a recuperação, '+nome)
     else:
-        print('Você foi expulso pelo marlon')
+        print('Você foi expulso pelo marlon, ' +nome)

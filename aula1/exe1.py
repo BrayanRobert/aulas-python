@@ -2,6 +2,6 @@
 nome = input("Qual seu nome? ") 
 
 String1 = nome
-String2 = 'Olá !'
+String2 = 'Olá '
 String3 = String2 + String1
 print(String3)
