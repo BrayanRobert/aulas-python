@@ -3,4 +3,4 @@ inteiro = -10
 ft = 167.63
 boolean = True or False
 vazio = None
-string = "Ola, meu nome é uma string"
+string = "Ola, meu nome é uma string 102898"

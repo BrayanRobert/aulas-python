@@ -4,7 +4,7 @@ subtracao = 90 - 50
 divisao = 30/3
 multiplicacao = 3 * 75
 potencia = 2 ** 3
-resto_divisao = 34%3
+resto_divisao = 34%2
 
 print(f'Esse é um exemplo de soma: {soma}')
 print(f'Esse é um exemplo de subtração: {subtracao}')
