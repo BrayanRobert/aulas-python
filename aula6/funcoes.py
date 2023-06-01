@@ -13,6 +13,7 @@ while True:
             dinheiro = float(input("Quanto de dinheiro você tem? "))
             produto = input("Qual produto você quer comprar? ")
             quantidade = int(input("Qual a quantidade que você quer comprar? "))
+            print(f"O troco que você recebeu foi {troco(dinheiro=dinheiro, produto=produto, quantidade=quantidade)}")
             resultado = comprar(dinheiro=dinheiro, produto=produto, quantidade=quantidade)
             print(resultado)
         case 2:

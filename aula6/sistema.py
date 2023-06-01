@@ -32,6 +32,14 @@ def sacar(dinheiro : float) -> str:
         return "ERROR! VOCÊ NÃO TEM DINHEIRO SUFICIENTE"
     else:
         return f"Parabéns! Você sacou R${valor}"
+def troco(dinheiro : float, produto : str, quantidade : int) -> str:
+    valor_gasto = produtos(key=produto) * quantidade
+    troco_recebido = dinheiro - valor_gasto
+    if troco_recebido > dinheiro:
+        return "ERROR! ERRO DE APLICAÇÃO"
+    else:
+        return troco_recebido
+
 
 def sair() -> str:
     return "Mercado fechado!"
