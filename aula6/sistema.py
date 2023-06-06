@@ -39,7 +39,14 @@ def troco(dinheiro : float, produto : str, quantidade : int) -> str:
         return "ERROR! ERRO DE APLICAÇÃO"
     else:
         return troco_recebido
-
+def cancelar(produto : str, quantidade: int) -> str:
+    cancelar_produto = input("Você gostaria de cancelar a compra?  Sim/Não ")
+    if cancelar_produto() == "Sim":
+        return f"Parabéns você cancelou sua compra de {quantidade} {produto} com sucesso!"
+    elif cancelar_produto() == "Não":
+        return "Compra foi passada com sucesso"
+    else:
+        return "Resposta inválida. Apenas responda 'Sim' ou 'Não'"
 
 def sair() -> str:
     return "Mercado fechado!"
