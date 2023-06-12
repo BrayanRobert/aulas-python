@@ -25,7 +25,7 @@ def comprar(dinheiro : float, produto : str, quantidade : int) -> str:
         if valor_gasto > dinheiro:
             return "ERROR! VOCÊ NÃO TEM DINHEIRO SUFICIENTE"
         else:
-            return f"Você comprou {quantidade} de {produto}"
+           return cancelar(produto=produto, quantidade=quantidade)
 def sacar(dinheiro : float) -> str:
     valor = float(input("Quanto você quer sacar? "))
     if valor > dinheiro:
@@ -41,9 +41,9 @@ def troco(dinheiro : float, produto : str, quantidade : int) -> str:
         return troco_recebido
 def cancelar(produto : str, quantidade: int) -> str:
     cancelar_produto = input("Você gostaria de cancelar a compra?  Sim/Não ")
-    if cancelar_produto() == "Sim":
+    if cancelar_produto == "Sim":
         return f"Parabéns você cancelou sua compra de {quantidade} {produto} com sucesso!"
-    elif cancelar_produto() == "Não":
+    elif cancelar_produto == "Não":
         return "Compra foi passada com sucesso"
     else:
         return "Resposta inválida. Apenas responda 'Sim' ou 'Não'"
